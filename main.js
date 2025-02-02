@@ -9,12 +9,11 @@ window.addEventListener("scroll", function()
 })
 
 
-window.addEventListener("scroll", function()
-{
-    let offset = window.pageYOffset;
-    offset-=3100;
-    parallax1.style.backgroundPositionY = offset*(0.1) + "px";
-})
+window.addEventListener("scroll", function() {
+  let offset = window.scrollY;
+  offset -= 3100;
+  document.getElementById('parallax1').style.backgroundPositionY = offset * 0.1 + "px";
+});
 
 window.addEventListener("scroll", function()
 {
