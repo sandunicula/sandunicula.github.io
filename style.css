@@ -427,6 +427,17 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 768px) {
+    .hands {
+        background-image: url(photos/PastelField_iPhone.png);
+        background-size: contain;
+        background-position-y: center;
+        background-position-x: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
 /* <===================STAY===================> */
 #stay {
     background-color: var(--grey-color);
