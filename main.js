@@ -3,7 +3,7 @@ const parallax1 = document.getElementById("parallax1");
 const parallax2 = document.getElementById("parallax2");
 
 window.addEventListener("scroll", function () {
-  let offset = window.scrollY;
+  let offset = window.pageYOffset;
   parallax.style.backgroundPositionX = offset * (-0.3) - 100 + "px";
 })
 
@@ -14,7 +14,7 @@ window.addEventListener("scroll", function () {
 });
 
 window.addEventListener("scroll", function () {
-  let offset = window.scrollY;
+  let offset = window.pageYOffset;
   offset -= 4800;
   parallax2.style.backgroundPositionY = offset * (-0.1) + "px";
 })

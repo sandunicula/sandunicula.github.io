@@ -417,30 +417,17 @@ a:hover {
 
 /* <===================HANDS===================> */
 
-@media only screen and (min-width: 768px) {
 
-    .hands {
-        height: 120vh;
-        width: 100%;
-        background-image: url(photos/PastelField.png);
-        background-size: cover;
-        background-position-y: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }
+.hands {
+    height: 120vh;
+    width: 100%;
+    background-image: url(photos/PastelField_iPhone.png);
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 768px) {
-    .hands {
-        height: 120vh;
-        width: 100%;
-        background-image: url(photos/PastelField_iPhone.png);
-        background-size: cover;
-        background-position-y: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }
-}
 
 /* <===================STAY===================> */
 #stay {
@@ -495,28 +482,15 @@ a:hover {
     margin: 20px 0;
 }
 
-@media only screen and (min-width: 768px) {
-    .registry-img {
-        display: block;
-        height: 100vh;
-        width: 40vw;
-        background-image: url(photos/IMG_8499.JPG);
-        background-size: cover;
-        background-position-y: top;
-        background-repeat: no-repeat;
-        /* background-attachment: fixed; */
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .registry-img {
-        background-image: url(photos/IMG_8499_iPhone.JPG);
-        background-size: contain;
-        background-position-y: center;
-        background-position-x: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }
+.registry-img {
+    display: block;
+    height: 100vh;
+    width: 40vw;
+    background-image: url(photos/IMG_8499_iPhone.JPG);
+    background-size: cover;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
 
 .registry-img-sm {
