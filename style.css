@@ -421,11 +421,11 @@ a:hover {
 .hands {
     height: 120vh;
     width: 100%;
-    background-image: url(photos/PastelField_iPhone.png);
+    background-image: url(photos/IMG_8548.JPG);
     background-size: cover;
-    background-position-y: center;
-    background-attachment: fixed;
+    background-position-y: top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -486,11 +486,11 @@ a:hover {
     display: block;
     height: 100vh;
     width: 40vw;
-    background-image: url(photos/IMG_8499_iPhone.JPG);
+    background-image: url(photos/IMG_8498.JPG);
     background-size: cover;
     background-position-y: top;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 .registry-img-sm {
