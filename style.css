@@ -277,6 +277,10 @@ a:hover {
     padding: 1rem 0 1rem 4rem;
 }
 
+.timings-item {
+    text-wrap: nowrap;
+}
+
 @media (max-width:1000px) {
     .timeline {
         background-color: var(--grey-color);
